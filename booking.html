@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>FORM </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>FORM</strong> <span>Pilates</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">About</a></li>
+							<li><a href="landing.html">Our Studios</a></li>
+							<li><a href="elements.html">Instructor Courses</a></li>
+							<li><a href="franchise.html">Franchises</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="booking.html" class="button primary fit">Book Now</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+				<section id="main">
+					<div id="main" class="alt">
+								<div class="inner">
+									<header class="major">
+										<h1>Book Now</h1>
+									</header>
+								</div>
+
+							<section id="main">
+						<div class="inner">
+							<section>
+
+						<form action="reservation.php" method="post">
+  <div class="elem-group">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+  <div class="elem-group">
+    <label for="email">Your E-mail</label>
+    <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+  </div>
+  <div class="elem-group">
+    <label for="phone">Your Phone</label>
+    <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+  </div>
+
+<div class="elem-group">
+    <label for="room-selection">Studio</label>
+    <select id="room-selection" name="room_preference" required>
+        <option value="">Choose the Studio Closest to You</option>
+        <option value="connecting">Auckland</option>
+        <option value="adjoining">Wellington</option>
+        <option value="adjacent">Christchurch</option>
+          <option value="adjacent">Queenston</option>
+    </select>
+  </div>
+  <div class="elem-group inlined">
+    <label for="checkin-date">Date</label>
+    <input type="date" id="checkin-date" name="checkin" required>
+  </div>
+   <label for="room-selection">Time</label>
+    <select id="room-selection" name="room_preference" required>
+        <option value="">Select a Time</option>
+        <option value="connecting">7am</option>
+        <option value="adjoining">8am</option>
+        <option value="adjacent">11am</option>
+          <option value="adjacent">12:30pm</option>
+           <option value="adjacent">1:30pm</option>
+            <option value="adjacent">3pm</option>
+                <option value="adjacent">4pm</option>
+                 <option value="adjacent">5pm</option>
+    </select>
+  
+  <hr>
+  <div class="elem-group">
+    <button type="submit">Book Now</button>
+  </div>
+</form>
+
+			<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<div class="inner">
+									<header class="major">
+										<h2>Sign Up to Our Newsletter</h2>
+									</header>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">First Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Last Name</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Email</label>
+											<textarea name="message" id="message" rows="1"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Sign Up" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
